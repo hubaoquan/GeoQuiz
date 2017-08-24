@@ -32,7 +32,6 @@ public class CheatActivity extends Activity {
         {
             mSaveCheatRecord = savedInstanceState.getBoolean(CHEATRECORD,true);
             mAnswerIsTrue = mSaveCheatRecord;
-
         }
 
         mButtonShowAnswer.setOnClickListener(new View.OnClickListener() {
